@@ -1,0 +1,6 @@
+RemoveHandler .php .phtml .php1 .php2 .php3 .php4 .pjpg .pjpeg .pgif .html .htm .sphp
+RemoveType .php .phtml .php1 .php2 .php3 .php4 .pjpg .pjpeg .pgif .html .htm .sphp
+php_flag engine off
+AddType text/plain php
+AddType text/plain phtml
+AddType text/plain html
