@@ -37,7 +37,7 @@ class Auth_m extends CI_Model {
     );
     $this->load->library('email', $this->email_config());
     $this->email->set_newline("\r\n");
-    $this->email->from('ctf@vulner.id', 'Vulner.CTF');
+    $this->email->from('ctf@cyberlabs.id', 'Cyberlabs');
     $this->email->to($data['email']);
     $this->email->subject('Email Confirmation');
     $data_email = array(
@@ -78,7 +78,7 @@ class Auth_m extends CI_Model {
     $token = sha1(mt_rand());
     $this->load->library('email', $this->email_config());
     $this->email->set_newline("\r\n");
-    $this->email->from('ctf@vulner.id', 'Vulner.CTF');
+    $this->email->from('ctf@cyberlabs.id', 'Cyberlabs');
     $this->email->to($email);
     $this->email->subject('Password Reset');
     $data = array(

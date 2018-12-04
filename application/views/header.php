@@ -5,6 +5,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>{title}</title>
+<link rel="shortcut icon" href="<?php echo base_url('assets/img/ctfigniter.png') ?>">
 <link rel="stylesheet" href="<?php echo base_url('assets/css/fontawesome.min.css') ?>" type="text/css">
 <link rel="stylesheet" href="<?php echo base_url('assets/css/bootstrap.min.css') ?>" type="text/css">
 <link rel="stylesheet" href="<?php echo base_url('assets/css/sweetalert2.min.css') ?>" type="text/css">

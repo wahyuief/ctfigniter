@@ -16,4 +16,12 @@ class Profile_m extends CI_Model {
     $query = $this->db->get();
     return !empty($query)?$query->result_array():false;
   }
+  public function edit($data, $id)
+  {
+    if ($this->db->update('users', $data, ['id'=>$id])) {
+      return TRUE;
+    } else {
+      return FALSE;
+    }
+  }
 }

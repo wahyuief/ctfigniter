@@ -13,7 +13,7 @@ if ($this->session->flashdata('success')) {
 }
 ?>
 <div class="text-center mt-4">
-<small>Made with <i class="fas fa-heart text-danger"></i> by <a href="https://github.com/wahyuief/ctfigniter">Wahyuief</a></small>
+<small>Made with <i class="fas fa-heart text-danger"></i> by <a href="https://github.com/wahyuief/ctfigniter">wahyuief</a></small>
 </div>
 </div>
 </div>
