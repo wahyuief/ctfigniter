@@ -23,7 +23,7 @@ class Flag extends CI_Controller {
 		if ($verify === FALSE) {
 			$this->session->set_flashdata('error', 'Flag is incorrect');
 			redirect(base_url('challenges'));
-		} else if ($verify === HAVE) {
+		} else if ($verify === 'HAVE') {
 			$this->session->set_flashdata('warning', 'Your have been solved this challenge');
 			redirect(base_url('challenges'));
 		} else if ($verify === TRUE) {

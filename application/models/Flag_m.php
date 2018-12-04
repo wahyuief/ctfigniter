@@ -29,7 +29,7 @@ class Flag_m extends CI_Model {
         return FALSE;
       }
     } else {
-      return HAVE;
+      return 'HAVE';
     }
   }
 }
