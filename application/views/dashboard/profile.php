@@ -10,8 +10,9 @@
     <hr>
     <?php if ($this->session->has_userdata('ctfigniter') && empty($this->uri->segment(2))) {
       echo '<a href="#" class="btn form-control mb-2" data-toggle="modal" data-target="#edit-profile">Edit Profile</a>';
+    } if ($this->session->has_userdata('ctfigniter')) {
+      echo '<a href="'.base_url('profile/logout').'" class="btn form-control">Logout</a>';
     } ?>
-    <a href="<?php echo base_url('profile/logout') ?>" class="btn form-control">Logout</a>
   </div>
   <div class="col-sm-8">
     <div class="table-responsive">
