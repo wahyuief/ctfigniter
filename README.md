@@ -14,6 +14,3 @@ Ctfigniter is a CTF Platform that is built with php framework (CodeIgniter), for
 * Responsive themes
 * CSRF Protection
 * etc
-
-## Demo
-https://ctf.cyberlabs.id
